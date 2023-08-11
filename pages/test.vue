@@ -1,7 +1,7 @@
 <script setup>
-    const { locale, t: $t } = useI18n();
+    const { locale } = useI18n();
 </script>
 
 <template>
-Locale: {{ locale }}
+    Locale: {{ locale }}
 </template>
